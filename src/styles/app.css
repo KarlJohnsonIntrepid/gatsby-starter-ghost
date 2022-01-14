@@ -155,6 +155,7 @@ table {
 }
 img {
     max-width: 100%;
+    height: auto;
 }
 html {
     box-sizing: border-box;
@@ -668,6 +669,10 @@ h6 {
     background: var(--color-base);
     background-position: center;
     background-size: cover;
+    background-color: #000000;
+    background-image: linear-gradient(
+        315deg
+        , #000000 0%, #414141 74%);
 }
 
 .site-nav-item {
