@@ -444,7 +444,7 @@ blockquote cite a {
 }
 
 a {
-    color: #26a8ed;
+    color: orange;
     text-decoration: none;
 }
 
@@ -708,6 +708,10 @@ h6 {
     align-items: center;
 }
 
+.site-mast-left {
+    display: flex;
+}
+
 .site-mast-right .site-nav-item:last-child {
     padding-right: 0;
 }
@@ -727,9 +731,19 @@ h6 {
     line-height: 1.3em;
 }
 
+.site-banner-logo:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
 .aem-logo {
     padding-top: 20px;
     height: 110px
+}
+
+.aem-logo-main {
+    height: 32px;
+    padding-left: 6px
 }
 
 .site-banner-title {
@@ -741,7 +755,7 @@ h6 {
 }
 
 .site-banner-title-highlight {
-    colour: #fb6800;
+    color: #fb6800;
 }
 
 .site-banner-desc {
