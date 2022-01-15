@@ -740,6 +740,10 @@ h6 {
     line-height: 1.3em;
 }
 
+.site-banner-title-highlight {
+    colour: #fb6800;
+}
+
 .site-banner-desc {
     margin: 5px 0 0 0;
     padding: 0;
@@ -816,7 +820,7 @@ h6 {
     margin: 0 0 5px 0;
     font-size: 1.4rem;
     line-height: 1.15em;
-    color: orange;
+    color: #fb6800;
 }
 
 .post-card-title {
